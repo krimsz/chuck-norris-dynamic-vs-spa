@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: "Avenir Next";
+}
+body, html {
+  text-align: center;
+  height: 100%;
+  display: block;
+}
+
+app-root {
+  height: 100%;
+  display: block;
+  text-align: center;
+}

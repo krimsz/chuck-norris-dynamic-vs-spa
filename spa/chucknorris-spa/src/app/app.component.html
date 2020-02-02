@@ -1,0 +1,12 @@
+<div class="wrapper">
+  <h1 class="title"> Chuck Norris Facts</h1>
+  <div class="chuck-image-container">
+      <img id="chuck-image" src="assets/chuck-norris.jpg" (click)="clickStream$.next(null)">
+    <label id="chuck-iamge-label" for="chuck-image"> Click the image to fetch a new fact</label>
+  </div>
+  <div class="fact-container">
+    <div class="fact">
+      {{currentFact | async}}
+    </div>
+  </div>
+</div>
